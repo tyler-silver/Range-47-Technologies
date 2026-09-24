@@ -36,7 +36,7 @@ contactForm.addEventListener("submit", (event) => {
     message,
   ].join("\n");
 
-  const subject = encodeURIComponent(`Argent IT Solutions inquiry: ${topic}`);
+  const subject = encodeURIComponent(`Range47 Technologies inquiry: ${topic}`);
   const encodedBody = encodeURIComponent(body);
   window.location.href = `mailto:tyler.argentwrk@gmail.com?subject=${subject}&body=${encodedBody}`;
 });
